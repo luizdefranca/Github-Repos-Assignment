@@ -15,6 +15,8 @@
 		257CB51D228DC97100E4D858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CB51C228DC97100E4D858 /* main.m */; };
 		257CB527228DC97100E4D858 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CB526228DC97100E4D858 /* GithubReposTests.m */; };
 		257CB532228DC97100E4D858 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CB531228DC97100E4D858 /* GithubReposUITests.m */; };
+		257CB544228DD15600E4D858 /* GithubReposTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CB543228DD15600E4D858 /* GithubReposTableViewController.m */; };
+		257CB547228DD17D00E4D858 /* GithubReposTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CB546228DD17D00E4D858 /* GithubReposTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		257CB52D228DC97100E4D858 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257CB531228DC97100E4D858 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		257CB533228DC97100E4D858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257CB542228DD15600E4D858 /* GithubReposTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubReposTableViewController.h; sourceTree = "<group>"; };
+		257CB543228DD15600E4D858 /* GithubReposTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposTableViewController.m; sourceTree = "<group>"; };
+		257CB545228DD17D00E4D858 /* GithubReposTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubReposTableViewCell.h; sourceTree = "<group>"; };
+		257CB546228DD17D00E4D858 /* GithubReposTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,11 @@
 		257CB50C228DC97000E4D858 /* GithubRepos */ = {
 			isa = PBXGroup;
 			children = (
+				257CB542228DD15600E4D858 /* GithubReposTableViewController.h */,
+				257CB543228DD15600E4D858 /* GithubReposTableViewController.m */,
 				257CB50D228DC97000E4D858 /* AppDelegate.h */,
+				257CB545228DD17D00E4D858 /* GithubReposTableViewCell.h */,
+				257CB546228DD17D00E4D858 /* GithubReposTableViewCell.m */,
 				257CB50E228DC97000E4D858 /* AppDelegate.m */,
 				257CB510228DC97000E4D858 /* ViewController.h */,
 				257CB511228DC97000E4D858 /* ViewController.m */,
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257CB547228DD17D00E4D858 /* GithubReposTableViewCell.m in Sources */,
+				257CB544228DD15600E4D858 /* GithubReposTableViewController.m in Sources */,
 				257CB512228DC97000E4D858 /* ViewController.m in Sources */,
 				257CB51D228DC97100E4D858 /* main.m in Sources */,
 				257CB50F228DC97000E4D858 /* AppDelegate.m in Sources */,
